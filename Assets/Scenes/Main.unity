@@ -481,10 +481,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 513908922}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bba301168e6ced438745925f7c17cd3, type: 3}
+  m_Script: {fileID: 11500000, guid: 4babaa5e1958eac4f98dedda82317e78, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MainMenu
-  settingsPanel: {fileID: 0}
+  m_EditorClassIdentifier: Assembly-CSharp::Quit
 --- !u!1 &812719797
 GameObject:
   m_ObjectHideFlags: 0
@@ -568,7 +567,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 812719800}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 513908924}
+        m_TargetAssemblyTypeName: Quit, Assembly-CSharp
+        m_MethodName: Quita
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &812719800
 MonoBehaviour:
   m_ObjectHideFlags: 0
