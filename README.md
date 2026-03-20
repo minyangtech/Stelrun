@@ -1,3 +1,9 @@
+> [!IMPORTANT]
+We Are Not Making This Game Any More  
+이게임을 더이상 제작하지 않습니다.  
+무기한 개발 중지 상태입니다.  
+언제든지 개발이 재게 가능합니다.
+
 # Stelrun
 Stellive Fan Game / 2차창작가이드라인을 준수하여 만들어졌습니다.
 
