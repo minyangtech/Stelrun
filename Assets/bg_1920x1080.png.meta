@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 92030ea7899f4c541a53d8e09e762523
+guid: 856a11978c4007e4485a255bce64eee4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2580358922037421464
-    second: huya (1)_0
+      213: 3286687070282093370
+    second: bg_1920x1080_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: huya (1)_0
+      name: bg_1920x1080_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 251
-        height: 251
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 86a13f25b39b03cd0800000000000000
-      internalID: -2580358922037421464
+      spriteID: a3398001a78ac9d20800000000000000
+      internalID: 3286687070282093370
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      huya (1)_0: -2580358922037421464
+      bg_1920x1080_0: 3286687070282093370
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
