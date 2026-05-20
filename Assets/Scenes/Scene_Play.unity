@@ -585,6 +585,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController2D
   moveSpeed: 850
   jumpForce: 700
+  maxFallSpeed: 700
   jumpCutMultiplier: 0.45
   slideScaleY: 0.5
   groundCheck: {fileID: 1425771905}

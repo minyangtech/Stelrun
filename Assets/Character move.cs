@@ -5,6 +5,7 @@ public class PlayerController2D : MonoBehaviour
     [Header("Movement")]
     public float moveSpeed = 420f;
     public float jumpForce = 700f;
+    public float maxFallSpeed = 700f;
     [Range(0f, 1f)]
     public float jumpCutMultiplier = 0.45f;
 
@@ -72,6 +73,11 @@ public class PlayerController2D : MonoBehaviour
                 rb.linearVelocity.x,
                 rb.linearVelocity.y * jumpCutMultiplier
             );
+        }
+
+        if (rb.linearVelocity.y < -maxFallSpeed)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, -maxFallSpeed);
         }
 
         // 슬라이딩
